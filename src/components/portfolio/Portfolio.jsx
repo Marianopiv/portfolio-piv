@@ -13,7 +13,7 @@ const Portfolio = () => {
         <h3 className="text-3xl  tracking-widest font-bold" id="portfolio">Portfolio</h3>
       </div>
       <div className="">
-        <div className="flex flex-col gap-2 sm:flex-row items-center justify-center sm:min-h-72 bg-blue-100 flex-wrap py-2">
+        <div className="flex flex-col gap-6 sm:flex-row items-center justify-center  bg-blue-100 flex-wrap py-8">
           {projects.map(({ name, descripcion, img, tecnologias }) => (
             <Projecto name={name} descripcion={descripcion} img={img} tecnologias={tecnologias} />
           ))}

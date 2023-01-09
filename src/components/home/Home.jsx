@@ -5,6 +5,7 @@ import AboutMe from "../aboutMe/AboutMe";
 import Button from "../../UI/Button";
 import Portfolio from "../portfolio/Portfolio";
 import 'animate.css';
+import Tecnologias from "../tecnologias/Tecnologias";
 
 
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <div className="drop-shadow-2xl text-blue-800 font-serif text-left flex flex-col sm:flex-row gap-4 px-4 mt-4 py-0 sm:h-80 sm:items-center">
-        <div className="sm:w-1/2 animate__animated animate__fadeInLeft">
+      <div className="drop-shadow-2xl text-blue-800 font-serif text-left flex flex-col sm:flex-row gap-4 px-4 mt-4 py-0 sm:h-80 sm:items-center ">
+        <div className="sm:w-1/2 animate__animated animate__fadeInLeft p-4 flex flex-col gap-4 ">
           <p className="leading-6">
             Me dedico al desarrollo de aplicaciones web modernas y atractivas
             utilizando React Js.
@@ -46,6 +47,7 @@ const Home = () => {
       </div>
       <Portfolio />
       <AboutMe />
+      <Tecnologias/>
     </>
   );
 };
