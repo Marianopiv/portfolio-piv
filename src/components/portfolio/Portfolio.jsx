@@ -14,8 +14,8 @@ const Portfolio = () => {
       </div>
       <div className="">
         <div className="flex flex-col gap-6 sm:flex-row items-center justify-center  bg-blue-100 flex-wrap py-8">
-          {projects.map(({ name, descripcion, img, tecnologias }) => (
-            <Projecto name={name} descripcion={descripcion} img={img} tecnologias={tecnologias} />
+          {projects.map(({ name, descripcion, img, tecnologias,url }) => (
+            <Projecto url={url} key={name} name={name} descripcion={descripcion} img={img} tecnologias={tecnologias} />
           ))}
         </div>
       </div>

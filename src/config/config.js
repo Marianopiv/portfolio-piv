@@ -24,42 +24,42 @@ export const projects = [
       img: batatapiv,
       descripcion: "Este proyecto fue una oportunidad para profundizar mis conocimientos en HTML y CSS, y resultó ser uno de mis primeros proyectos largos en estas tecnologías.",
       tecnologias: "HTML y CSS",
-      url: " "
+      url: "https://batatapiv.vercel.app/"
     },
     {
       name: "Escape a Bali",
       img: bali,
       descripcion: "Este proyecto me ayudó a comprender mejor cómo funciona Bootstrap y a desarrollar habilidades en el diseño responsivo y el uso de gradientes de colores.",
       tecnologias: "HTML,CSS,BOOSTRAP",
-      url: " "
+      url: "https://bali-boostrap.vercel.app/"
     },
     {
       name: "Banderas",
       img: banderas,
       descripcion: "Esta aplicación me permitió practicar la manipulación de datos a través de una API, y tuve la oportunidad de añadirle un modo oscuro.",
       tecnologias: "HTML,CSS,JAVSCRIPT,REACT,TAILWIND",
-      url: " "
+      url: "https://banderas-woad.vercel.app/"
     },
     {
       name: "Mercado Pivo",
       img: mercadopivo,
       descripcion: "Disfruté mucho trabajando en esta aplicación, ya que me permitió introducirme en el uso de Context, React Router Dom y el mapeo de arrays con objetos.",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: " "
+      url: "https://mercadopiv.vercel.app/"
     },
     {
       name: "Piedra Papel o Tijera!",
       img: paperRockScissors,
       descripcion: "Esta fue una de mis primeras aplicaciones complejas con React, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: " "
+      url: "https://paper-rock-scissor-16n6wz932-marianopiv.vercel.app/"
     },
     {
       name: "Generador de Contraseñas",
       img: passgenerator,
       descripcion: "Esta aplicación me brindó la oportunidad de poner en práctica diferentes métodos para manipular arrays, y también me permitió planificar la arquitectura del proyecto de manera clara.",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: " "
+      url: "https://passgenerator-pied.vercel.app/"
     }
   ]
 

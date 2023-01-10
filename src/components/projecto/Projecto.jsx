@@ -2,17 +2,19 @@ import React from "react";
 import useMostrar from "../../hook/useMostrar";
 import Button from "../../UI/Button";
 
-const Projecto = ({ name, img, tecnologias, descripcion }) => {
+const Projecto = ({ name, img, tecnologias, descripcion,url }) => {
   const { setMostrar, mostrar } = useMostrar();
 
   return (
     <div className="flex flex-col items-center justify-content-center border w-72 sm:w-72 rounded-md p-4 gap-2  border-indigo-900 lg:h-96 lg:w-96 ">
       <h3 className="font-bold tracking-wide">{name}</h3>{" "}
+      <a className="w-40 lg:w-72 rounded-md h-24 lg:h-44 hover:cursor-pointer" href={url}>
       <img
-        className="w-40 lg:w-72 rounded-md h-24 lg:h-56 hover:cursor-pointer "
+        className="w-40 lg:w-72 rounded-md h-24 lg:h-44 hover:cursor-pointer "
         src={img}
         alt=""
-      />{" "}
+      />
+      </a>
       <p className="lg:none text-xs">{mostrar && descripcion}</p>
       <p className="hidden lg:flex text-sm">{descripcion}</p>
       <p className="text-xs">Tecnologias usadas:</p>
