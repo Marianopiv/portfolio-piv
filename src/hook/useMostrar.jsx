@@ -2,6 +2,11 @@ import React, { useState } from "react";
 
 const useMostrar = () => {
   const [mostrar, setMostrar] = useState(false);
-  return { setMostrar,mostrar };
+
+  function handleClick(section) {
+    const contactoSection = document.querySelector(`#${section}`);
+    contactoSection.scrollIntoView({ behavior: "smooth" });
+  }
+  return { setMostrar,mostrar,handleClick };
 };
 export default useMostrar;
