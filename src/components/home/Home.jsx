@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <NavBar />
       <div className="drop-shadow-2xl text-blue-800 font-serif text-left flex flex-col sm:flex-row gap-4 px-4 mt-4 py-0 sm:h-80 sm:items-center dark:bg-white ">
-        <div className="sm:w-1/2 animate__animated animate__fadeInLeft p-4 flex flex-col gap-4 ">
+        <div className="sm:w-1/2 animate__animated animate__fadeInLeft p-4 flex flex-col gap-4 dark:bg-white">
           <p className="leading-6">
             Me dedico al desarrollo de aplicaciones web modernas y atractivas
             utilizando React Js.
