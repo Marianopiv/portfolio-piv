@@ -5,7 +5,7 @@ import 'animate.css';
 
 function App() {
   return (
-    <div className="App animate__animated animate__fadeIn ">
+    <div className="App animate__animated animate__fadeIn dark:bg-white ">
       <Home/>
     </div>
   )
