@@ -5,7 +5,7 @@ const Tecnologias = () => {
   return (
     <div>
       <div className="bg-blue-200 h-24 flex justify-center items-center drop-shadow-2xl">
-        <h3 className="text-3xl  tracking-widest font-bold" id="tecnologias">
+        <h3 className="text-3xl dark:text-black  tracking-widest font-bold" id="tecnologias">
           Tecnologias
         </h3>
       </div>
