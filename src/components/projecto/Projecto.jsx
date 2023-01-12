@@ -22,7 +22,7 @@ const Projecto = ({ name, img, tecnologias, descripcion,url }) => {
       <div className="flex flex-col gap-2 lg:hidden">
         <Button
           action={() => setMostrar(!mostrar)}
-          text={"mostrar descripcion"}
+          text={`${!mostrar?"mostrar":"ocultar"} descripcion`}
         />{" "}
       </div>
     </div>
