@@ -13,6 +13,7 @@ import reactTech from "../assets/react-tech.png"
 import sassTech from "../assets/sass-tech.png"
 import tailwind from "../assets/tailwind-tech.png"
 import boostrapTech from "../assets/bootstrap-tech.png"
+import tsxTech from "../assets/tsx-tech.png"
 
 export const textoCortado = "Hola! Soy Mariano y soy Desarrollador Web Frontend.Mi camino hacia esta carrera comenzó cuando mi curiosidad intelectual y mi deseo de alcanzar nuevos objetivos laborales me llevaron a explorar el mundo de la programación en 2021..."
 
@@ -63,4 +64,4 @@ export const projects = [
     }
   ]
 
-export const tecnologias = [htmlTech,cssTech,jsTech,reactTech,figmaTech,git,sassTech,tailwind,boostrapTech]
+export const tecnologias = [htmlTech,cssTech,jsTech,reactTech,tsxTech,figmaTech,git,sassTech,tailwind,boostrapTech]
