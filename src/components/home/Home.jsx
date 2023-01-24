@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <NavBar />
       <div className="drop-shadow-2xl text-blue-800 font-serif text-left flex flex-col sm:flex-row gap-4 px-4 pt-4 py-0 sm:h-80 sm:items-center dark:bg-white ">
-        <div className="sm:w-1/2 animate__animated animate__fadeInLeft p-4 flex flex-col gap-4 dark:bg-white text-justify">
+        <div className="sm:w-1/2 animate__animated animate__fadeIn sm:animate__fadeInLeft p-4 flex flex-col gap-4 dark:bg-white text-justify">
           <p className="leading-6">
             Me dedico al desarrollo de aplicaciones web modernas y atractivas
             utilizando React Js.
@@ -41,7 +41,7 @@ const Home = () => {
             <Button action={() => handleClick("sobremi")} text={"sobre mi"} />
           </div>
         </div>
-        <div className="flex justify-center px-2 sm:w-1/2 animate__animated animate__fadeInRight">
+        <div className="flex justify-center px-2 sm:w-1/2 animate__animated animate__fadeIn sm:animate__fadeInRight">
           <img className="w-48 h-40" src={cvpic} alt="" />
         </div>
       </div>

@@ -8,7 +8,7 @@ import 'animate.css';
 const Portfolio = () => {
   
   return (
-    <div className="animate__animated animate__fadeInUp">
+    <div className="animate__animated animate__fadeIn sm:animate__fadeInUp">
       <div className="bg-blue-200 h-24 flex justify-center items-center drop-shadow-2xl ">
         <h3 className="text-3xl  tracking-widest font-bold dark:text-black" id="portfolio">Portfolio</h3>
       </div>
