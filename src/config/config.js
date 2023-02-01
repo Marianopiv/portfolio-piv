@@ -15,6 +15,8 @@ import tailwind from "../assets/tailwind-tech.png"
 import boostrapTech from "../assets/bootstrap-tech.png"
 import tsxTech from "../assets/tsx-tech.png"
 import tipCalculator from "../assets/tipCalcu.png"
+import yugiOh from "../assets/yu-gi-oh.png"
+import firebaseTech from "../assets/firebase-tech.png"
 
 export const textoCortado = "Hola! Soy Mariano y soy Desarrollador Web Frontend.Mi camino hacia esta carrera comenzó cuando mi curiosidad intelectual y mi deseo de alcanzar nuevos objetivos laborales me llevaron a explorar el mundo de la programación en 2021..."
 
@@ -53,30 +55,30 @@ export const projects = [
       name: "Piedra Papel o Tijera!",
       img: paperRockScissors,
       descripcion: "Esta fue una de mis primeras aplicaciones complejas con TypeScript, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
-      tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
+      tecnologias: "HTML,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
       url: "https://paper-rock-typescript.vercel.app/"
     },
     {
       name: "Generador de Contraseñas",
       img: passgenerator,
-      descripcion: "Esta aplicación me brindó la oportunidad de poner en práctica diferentes métodos para manipular arrays, también me permitió planificar la arquitectura del proyecto de manera clara y por último la práctica de migrarla de javascript a TypeScript ",
+      descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora de armar la arquitectura del proyecto y la práctica de migrar el código de Javascript a TypeScript. ",
       tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
       url: "https://password-generator-tsx-6adi.vercel.app/"
     },
     {
       name: "Tip Calculator",
       img: tipCalculator,
-      descripcion: "Esta aplicación me permitio explorar las diferencias fundamentales entre los tipos de datos en typescript para poder hacer que funcione su lógica interna, asimismo me desafió a entender mas a profundidad el manejo de errores y el metodo onBlur nativo de JS",
+      descripcion: "Exploré tipos de datos en TypeScript y manejo de errores en esta aplicación. También me enfrenté al desafío de entender el método onBlur en Javascript.",
       tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
       url: "https://tip-calculator-typescript-h3n2zt7bi-marianopiv.vercel.app/"
     },
     {
       name: "Yu Gi Oh Enciclopedia de cartas",
-      img: tipCalculator,
+      img: yugiOh,
       descripcion: "Aplicación con la cual pude explorar distintas alternativas ofrecidas por la API, logrando mostrar y filtrar a mi gusto, y utilizando las opciones de paginado necesarias para poder mostrar los elementos",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
       url: "https://yu-gi-oh-iota.vercel.app/"
     }
   ]
 
-export const tecnologias = [htmlTech,cssTech,jsTech,reactTech,tsxTech,figmaTech,git,sassTech,tailwind,boostrapTech]
+export const tecnologias = [htmlTech,cssTech,jsTech,reactTech,tsxTech,figmaTech,git,sassTech,tailwind,boostrapTech,firebaseTech]

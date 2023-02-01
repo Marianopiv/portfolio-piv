@@ -9,7 +9,7 @@ const Tecnologias = () => {
           Tecnologias
         </h3>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-4 mt-10">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-10 lg:mx-60">
         {tecnologias.map((item) => (
           <div key={item}>
             <img className="w-32 h-30" src={item} alt="" />
