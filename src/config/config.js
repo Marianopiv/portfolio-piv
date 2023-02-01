@@ -17,6 +17,8 @@ import tsxTech from "../assets/tsx-tech.png"
 import tipCalculator from "../assets/tipCalcu.png"
 import yugiOh from "../assets/yu-gi-oh.png"
 import firebaseTech from "../assets/firebase-tech.png"
+import ninjamail from "../assets/ninjamail.png"
+import tictactoe from "../assets/tic-tac-toe.png"
 
 export const textoCortado = "Hola! Soy Mariano y soy Desarrollador Web Frontend.Mi camino hacia esta carrera comenzó cuando mi curiosidad intelectual y mi deseo de alcanzar nuevos objetivos laborales me llevaron a explorar el mundo de la programación en 2021..."
 
@@ -29,6 +31,13 @@ export const projects = [
       descripcion: "Este proyecto fue una oportunidad para profundizar mis conocimientos en HTML y CSS, y resultó ser uno de mis primeros proyectos largos en estas tecnologías.",
       tecnologias: "HTML y CSS",
       url: "https://batatapiv.vercel.app/"
+    },
+    {
+      name: "Ninja Mail",
+      img: ninjamail,
+      descripcion: "Proyecto introduccion a boostrap el cual me ayudó a entender mucho el valor de los frameworks y librerias y su potencial para poder crear proyectos a mayor escala y el desarrollo responsive",
+      tecnologias: "HTML CSS Y BOOSTRAP",
+      url: "https://ninja-mail-kappa.vercel.app/"
     },
     {
       name: "Escape a Bali",
@@ -61,7 +70,7 @@ export const projects = [
     {
       name: "Generador de Contraseñas",
       img: passgenerator,
-      descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora de armar la arquitectura del proyecto y la práctica de migrar el código de Javascript a TypeScript. ",
+      descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
       tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
       url: "https://password-generator-tsx-6adi.vercel.app/"
     },
@@ -78,6 +87,13 @@ export const projects = [
       descripcion: "Aplicación con la cual pude explorar distintas alternativas ofrecidas por la API, logrando mostrar y filtrar a mi gusto, y utilizando las opciones de paginado necesarias para poder mostrar los elementos",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
       url: "https://yu-gi-oh-iota.vercel.app/"
+    },
+    {
+      name: "Tic Tac Toe",
+      img: tictactoe,
+      descripcion: "Juego que resulto un gran desafío armar, desde la logica a la hora de que juegue el contrincante, hasta poder perfeccionar la interaccion con Firebase y su guardado en la base de datos.",
+      tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
+      url: "https://tic-tac-3v6xj1z42-marianopiv.vercel.app/"
     }
   ]
 
