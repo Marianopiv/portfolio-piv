@@ -19,6 +19,11 @@ import yugiOh from "../assets/yu-gi-oh.png"
 import firebaseTech from "../assets/firebase-tech.png"
 import ninjamail from "../assets/ninjamail.png"
 import tictactoe from "../assets/tic-tac-toe.png"
+import github from "../assets/github-logo.png"
+import linkedin from  "../assets/Linkedin.png"
+import mail from "../assets/email.png"
+
+export const icons = [linkedin,github]
 
 export const textoCortado = "Hola! Soy Mariano y soy Desarrollador Web Frontend.Mi camino hacia esta carrera comenzó cuando mi curiosidad intelectual y mi deseo de alcanzar nuevos objetivos laborales me llevaron a explorar el mundo de la programación en 2021..."
 
@@ -68,7 +73,7 @@ export const projects = [
       url: "https://paper-rock-typescript.vercel.app/"
     },
     {
-      name: "Generador de Contraseñas",
+      name: "Generador de Contranseñas",
       img: passgenerator,
       descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
       tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",

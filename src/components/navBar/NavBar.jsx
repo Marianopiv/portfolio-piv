@@ -1,23 +1,56 @@
 import React from "react";
+import { icons } from "../../config/config";
 import useMostrar from "../../hook/useMostrar";
 
 const NavBar = () => {
-
   const { handleClick } = useMostrar();
   return (
-    <div className="drop-shadow-xl w-screen bg-blue-900 text-white h-24 flex flex-col md:flex-row justify-center md:justify-around items-center font-bold gap-4  py-2">
-      <div className="">
-        <h3 className="text-3xl  tracking-widest">Mariano Pividori</h3>
-        <h3>Desarrollador Web Frontend</h3>
+    <>
+      <div className="drop-shadow-xl w-full bg-black text-white relative">
+        <div className="">
+          <div className="flex py-2">
+            <p className="w-2/4">M.P portfolio</p>
+            <div className="flex gap-4 justify-center w-2/4">
+              {icons.map((item, index) => (
+                <img
+                  key={index}
+                  className="w-6 h-6"
+                  src={item}
+                  alt=""
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="flex p-4 items-center justify-between ">
+          <p className="text-xs">Projectos</p>
+          <p className="text-xs">Tecnologias</p>
+          <p className="text-xs">Sobre mi</p>
+        </div>
+        <div>
+          <ul className="hidden md:flex justify-end">
+            <li
+              onClick={() => handleClick("portfolio")}
+              className="hover:cursor-pointer pr-2"
+            >
+              Portfolio
+            </li>
+            <li
+              onClick={() => handleClick("sobremi")}
+              className="hover:cursor-pointer pr-2"
+            >
+              Sobre mi
+            </li>
+            <li
+              onClick={() => handleClick("tecnologias")}
+              className="hover:cursor-pointer "
+            >
+              Tecnologias
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <ul className="hidden md:flex justify-around w-96 pl-20">
-          <li onClick={() => handleClick("portfolio")} className="hover:cursor-pointer">Portfolio</li>
-          <li onClick={() => handleClick("sobremi")} className="hover:cursor-pointer">Sobre mi</li>
-          <li onClick={() => handleClick("tecnologias")} className="hover:cursor-pointer">Tecnologias</li>
-        </ul>
-      </div>
-    </div>
+    </>
   );
 };
 
