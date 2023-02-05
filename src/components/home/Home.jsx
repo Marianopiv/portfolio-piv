@@ -29,9 +29,20 @@ const Home = () => {
               programación.
             </p>
             <div className="h-96 z-50">
-              <img className="absolute ellipse-14 rounded-full " src={ellipse14} alt=""/>
+              <img
+                className="absolute ellipse-14 rounded-full "
+                src={ellipse14}
+                alt=""
+              />
               <div className="absolute ellipse-15 rounded-full"></div>
-              <img className="absolute cv border-2 border-r-cyan-400 border-l-violet-400 border-t-blue-300 border-b-blue-300" src={withBg} alt="" />
+              <img
+                className="absolute cv border-2 border-r-cyan-400 border-l-violet-400 border-t-blue-400 border-b-blue-300"
+                src={withBg}
+                alt=""
+              />
+        <div className="absolute top-3/4 mt-8 right-26">
+          <button className="btn-class w-36 h-12 text-xs pb-8">Download CV</button>
+        </div>
             </div>
           </div>
         </div>

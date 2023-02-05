@@ -23,7 +23,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="flex p-4 items-center justify-between ">
-          <p className="text-xs">Projectos</p>
+          <p className="text-xs">Proyectos</p>
           <p className="text-xs">Tecnologias</p>
           <p className="text-xs">Sobre mi</p>
         </div>
