@@ -6,7 +6,7 @@ const NavBar = () => {
   const { handleClick } = useMostrar();
   return (
     <>
-      <div className="border-0 w-full bg-black text-white relative sm:flex sm:px-4">
+      <div className="border-0 w-full bg-black text-white relative sm:flex px-4">
         <div className="sm:w-1/4">
           <div className="flex py-2 justify-center">
             <p className="">M.P portfolio</p>
