@@ -27,22 +27,6 @@ const AboutMe = () => {
           <div className="absolute border-2 opacity-80 h-96  left-14"></div>
           <div className="absolute border-2 opacity-80 h-10  left-14 top-2/4"></div>
         </div>
-
-        <div className=" px-6 md:mx-10 mt-5 text-justify">
-          {mostrar
-            ? fullTexto.map((item, index) => (
-                <p key={index} className="mb-4">
-                  {item}
-                </p>
-              ))
-            : textoCortado}{" "}
-        </div>
-        <button
-          className=" text-blue-600 bg-white dark:bg-white hover:bg-blue-600 hover:text-white my-4 text-justify"
-          onClick={() => setMostrar(!mostrar)}
-        >
-          {mostrar ? "Ver menos..." : "Ver mas..."}
-        </button>
       </div>
     </div>
   );

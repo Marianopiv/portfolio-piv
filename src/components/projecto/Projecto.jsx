@@ -4,7 +4,6 @@ import Button from "../../UI/Button";
 import "./projecto.css";
 
 const Projecto = ({ name, img, tecnologias, descripcion, url }) => {
-  const { setMostrar, mostrar } = useMostrar();
 
   return (
     <div

@@ -10,6 +10,7 @@ import "./home.css";
 import ellipse14 from "../../assets/Ellipse 14.png";
 import ellipse15 from "../../assets/Ellipse 15.png";
 import withBg from "../../assets/black-white.png";
+import Footer from "../footer/Footer";
 const Home = () => {
   function handleClick(section) {
     const contactoSection = document.querySelector(`#${section}`);
@@ -50,6 +51,7 @@ const Home = () => {
       <Portfolio />
       <Tecnologias />
       <AboutMe />
+      <Footer/>
     </>
   );
 };
