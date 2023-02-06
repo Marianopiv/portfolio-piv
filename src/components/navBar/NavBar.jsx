@@ -6,18 +6,18 @@ const NavBar = () => {
   const { handleClick } = useMostrar();
   return (
     <>
-      <div className="border-0 w-full bg-black text-white relative">
-        <div className="">
-          <div className="flex py-2">
-            <p className="w-2/4">M.P portfolio</p>
-            <div className="flex gap-4 justify-center w-2/4">
+      <div className="border-0 w-full bg-black text-white relative sm:flex sm:px-4">
+        <div className="sm:w-1/4">
+          <div className="flex py-2 justify-center">
+            <p className="">M.P portfolio</p>
+            <div className="flex gap-4 justify-center w-2/4 sm:hidden">
               {icons.map((item, index) => (
                 <img key={index} className="w-6 h-6" src={item} alt="" />
               ))}
             </div>
           </div>
         </div>
-        <div className="flex p-4 items-center justify-between ">
+        <div className="flex p-4 items-center justify-between sm:justify-around sm:w-1/2">
           <p className="text-xs hover:cursor-pointer " onClick={() => handleClick("portfolio")}>
             Proyectos
           </p>
@@ -28,6 +28,11 @@ const NavBar = () => {
             Sobre mi
           </p>
         </div>
+        <div className="sm:flex gap-4 justify-center w-1/3 py-2 hidden ">
+              {icons.map((item, index) => (
+                <img key={index} className="w-6 h-6" src={item} alt="" />
+              ))}
+            </div>
 
       </div>
     </>
