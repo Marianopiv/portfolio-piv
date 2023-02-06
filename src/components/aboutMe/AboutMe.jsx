@@ -21,8 +21,7 @@ const AboutMe = () => {
               <p className="w-52 text-left text-xs text-[#929EB0] story">{logro}</p>
             </div>
           ))}
-          <div className="absolute border-2 opacity-80 h-96  left-14"></div>
-          <div className="absolute border-2 opacity-80 h-10  left-14 top-2/4"></div>
+          <div className="absolute border-2 opacity-80 h-80  left-14"></div>
         </div>
       </div>
     </div>

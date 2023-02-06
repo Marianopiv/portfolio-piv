@@ -4,7 +4,7 @@ import { icons } from "../../config/config";
 const Footer = () => {
   return (
     <div className="flex flex-col gap-2 pb-4">
-    <div className="flex px-4 pt-10">
+    <div className="flex px-4 pt-10 items-center">
       <h3 className="title text-sm text-left">
         Contactame para cualquier propuesta o consulta
       </h3>
