@@ -7,7 +7,6 @@
   background-color: black;
   font-style: normal;
   line-height: 27px;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +25,7 @@ a:hover {
 
 body {
   margin: 0;
+  padding:2px;
   display: flex;
 }
 

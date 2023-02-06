@@ -51,11 +51,9 @@ const Home = () => {
         </div>
       </div>
       <Portfolio />
-      <div className="pl-2">
         <Tecnologias />
         <AboutMe />
         <Footer />
-      </div>
     </>
   );
 };
