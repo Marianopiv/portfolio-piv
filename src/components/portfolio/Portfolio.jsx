@@ -11,10 +11,10 @@ const Portfolio = () => {
     <div className="animate__animated animate__fadeIn sm:animate__fadeInUp bg-black">
       <div className="h-24 flex items-center drop-shadow-xl px-4">
         <h3
-          className="text-3xl  tracking-widest font-bold text-white  portfolioTitle "
+          className=" font-bold text-white  portfolioTitle "
           id="portfolio"
         >
-          Portfolio
+          Proyectos
         </h3>
       </div>
       <div className="flex justify-center">

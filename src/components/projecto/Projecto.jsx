@@ -17,20 +17,35 @@ const Projecto = ({ name, img, tecnologias, descripcion, url }) => {
         alt=""
       />
       <h3 className="font-bold tracking-wide text-white">{name}</h3>{" "}
-      <a
-        className="w-40 lg:w-72 rounded-md lg:h-44 hover:cursor-pointer hover:opacity-50"
-        href={url}
-      ></a>
-      <p className="lg:none text-xs text-justify">{mostrar && descripcion}</p>
       <div className="lg:h-48 flex flex-col justify-around">
-        <p className="lg:flex text-xs text-justify text-[#929EB0]">{descripcion}</p>
-        <p className="text-xs whitespace-no-wrap text-gray-500">
+        <p className="lg:flex text-xs text-justify text-[#929EB0]">
+          {descripcion}
+        </p>
+        <p className="text-xs whitespace-no-wrap text-gray-500 py-4">
           {tecnologias}
         </p>{" "}
       </div>
-      <div className="flex gap-2 lg:hidden">
-        <Button action={() => setMostrar(!mostrar)} text={`Demo en vivo`} />{" "}
-        <Button action={() => setMostrar(!mostrar)} text={`GitHub`} className={"w-24  border-2 border-gray-500  btnBlack"} />{" "}
+      <div className="flex gap-2">
+        <a
+          className="w-40 lg:w-72 rounded-md lg:h-44 hover:cursor-pointer "
+          href={url}
+        >
+          <Button
+            text={`Demo en vivo`}
+            className={"hover:border-white border-2 border-black"}
+          />
+        </a>{" "}
+        <a
+          className="lg:w-72 rounded-md lg:h-44 hover:cursor-pointer"
+        >
+          <Button
+            action={() => console.log("Falta link")}
+            text={`GitHub`}
+            className={
+              "w-24  border-2 border-gray-500  btnBlack hover:border-white"
+            }
+          />{" "}
+        </a>
       </div>
     </div>
   );

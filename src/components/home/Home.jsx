@@ -48,8 +48,8 @@ const Home = () => {
         </div>
       </div>
       <Portfolio />
-      <AboutMe />
       <Tecnologias />
+      <AboutMe />
     </>
   );
 };
