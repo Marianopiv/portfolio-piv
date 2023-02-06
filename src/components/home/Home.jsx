@@ -41,17 +41,21 @@ const Home = () => {
                 src={withBg}
                 alt=""
               />
-        <div className="absolute top-3/4 mt-8 right-26">
-          <button className="btn-class w-36 h-12 text-xs pb-8">Download CV</button>
-        </div>
+              <div className="absolute top-3/4 mt-8 right-26">
+                <button className="btn-class w-36 h-12 text-xs pb-8">
+                  Download CV
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <Portfolio />
-      <Tecnologias />
-      <AboutMe />
-      <Footer/>
+      <div className="pl-2">
+        <Tecnologias />
+        <AboutMe />
+        <Footer />
+      </div>
     </>
   );
 };

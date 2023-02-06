@@ -4,7 +4,7 @@ import "./tecnologias.css"
 
 const Tecnologias = () => {
   return (
-    <div className="bg-black pt-4 pl-2">
+    <div className="bg-black pt-4">
       <div className=" text-white pb-4 px-2">
         <h3
           className=" font-bold text-white  portfolioTitle "
