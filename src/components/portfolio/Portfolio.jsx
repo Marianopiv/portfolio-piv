@@ -8,7 +8,7 @@ import "./portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="animate__animated animate__fadeIn sm:animate__fadeInUp bg-black">
+    <div className="animate__animated animate__fadeIn sm:animate__fadeInUp bg-black pr-2">
       <div className="h-24 flex items-center drop-shadow-xl px-4">
         <h3
           className="widest font-bold text-white  portfolioTitle "

@@ -4,7 +4,7 @@ import "./aboutMe.css"
 
 const AboutMe = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white pl-4">
       <div className="bg-black  h-24 flex  items-center drop-shadow-xl">
         <h3 className=" font-bold portfolioTitle text-left" id="sobremi">
           Sobre mi
