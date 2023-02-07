@@ -3,12 +3,12 @@ import { icons } from "../../config/config";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-2 pb-4 sm:pl-9 lg:pl-28">
+    <div className="flex flex-col gap-2 pb-4 sm:pl-9 lg:pl-28 xl:pl-32">
     <div className="flex px-4 pt-10 items-center">
       <h3 className="title text-sm text-left">
         Contactame para cualquier propuesta o consulta
       </h3>
-      <div className="flex gap-4 justify-center w-2/4">
+      <div className="flex gap-4 justify-center w-2/4 lg:justify-end lg:gap-4 lg:ml-24">
         {icons.map((item, index) => (
           <img key={index} className="w-6 h-6" src={item} alt="" />
         ))}

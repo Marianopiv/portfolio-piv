@@ -7,3 +7,8 @@
     text-align: left;
     
 }
+@media (min-width: 640px) {
+    .sm\:left-custom {
+        left: 5.6rem!important;
+    }
+}

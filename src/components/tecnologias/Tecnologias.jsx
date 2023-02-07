@@ -13,7 +13,7 @@ const Tecnologias = () => {
           Tecnologias
         </h3>
       </div>
-      <div className="flex flex-wrap  items-center text-white text-left pl-2">
+      <div className="flex flex-wrap  items-center text-white text-left pl-2 xl:pl-20 2xl:pl-28">
         {tecnologias.map((item) => (
           <div key={item} className="flex items-center gap-2 w-1/2 sm:w-1/3 pb-2">
             <div className="item-point w-3"></div>
