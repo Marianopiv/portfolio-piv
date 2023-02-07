@@ -72,7 +72,7 @@ export const projects = [
       url: "https://tip-calculator-typescript-h3n2zt7bi-marianopiv.vercel.app/"
     },
     {
-      name: "Yu Gi Oh Enciclopedia de cartas",
+      name: "Yu Gi Oh Enciclopedia",
       img: yugiOh,
       descripcion: "Aplicación con la cual pude explorar distintas alternativas ofrecidas por la API, logrando mostrar y filtrar a mi gusto, y utilizando las opciones de paginado necesarias para poder mostrar los elementos",
       tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
