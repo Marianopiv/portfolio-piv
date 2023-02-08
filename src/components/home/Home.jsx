@@ -8,14 +8,14 @@ import "./home.css";
 import ellipse14 from "../../assets/Ellipse 14.png";
 import withBg from "../../assets/black-white.png";
 import Footer from "../footer/Footer";
-import cv from "../../assets/CV.pdf"
+import cv from "../../assets/CV.pdf";
+import Button from "../../UI/Button";
 
 const Home = () => {
-  
   const downloadPDF = () => {
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = cv;
-    link.download = 'CV Pividori';
+    link.download = "CV Pividori";
     link.click();
   };
 
@@ -52,9 +52,11 @@ const Home = () => {
                 alt=""
               />
               <div className="absolute top-3/4 mt-8 sm:mt-0 right-26 sm:top-2/4 sm:left-32 md:top-96 lg:left-48 xl:left-80 xl:pl-6 z-50 hover:cursor-pointer">
-                <button onClick={downloadPDF} className="btn-class w-36 h-12 text-xs pb-8 ">
-                  Download CV
-                </button>
+                <Button
+                action={downloadPDF}
+                  text={`Descargar CV`}
+                  className={"hover:border-white border-2 border-black btn-class w-36 h-12 text-xs pb-8"}
+                />
               </div>
               <div className="hidden lg:flex">
                 <img

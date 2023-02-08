@@ -3,7 +3,7 @@ import useMostrar from "../../hook/useMostrar";
 import Button from "../../UI/Button";
 import "./projecto.css";
 
-const Projecto = ({ name, img, tecnologias, descripcion, url }) => {
+const Projecto = ({ name, img, tecnologias, descripcion, url,github }) => {
 
   return (
     <div
@@ -36,9 +36,9 @@ const Projecto = ({ name, img, tecnologias, descripcion, url }) => {
         </a>{" "}
         <a
           className=" rounded-md hover:cursor-pointer"
+          href={github}
         >
           <Button
-            action={() => console.log("Falta link")}
             text={`GitHub`}
             className={
               "w-24  border-2 border-gray-500  btnBlack hover:border-white"

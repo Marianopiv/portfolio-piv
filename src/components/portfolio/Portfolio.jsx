@@ -19,7 +19,7 @@ const Portfolio = () => {
       </div>
       <div className="flex justify-center">
         <div className="flex flex-col gap-6 sm:flex-row items-center justify-center   flex-wrap">
-          {projects.map(({ name, descripcion, img, tecnologias, url }) => (
+          {projects.map(({ name, descripcion, img, tecnologias, url,github }) => (
             <Projecto
               url={url}
               key={name}
@@ -27,6 +27,7 @@ const Portfolio = () => {
               descripcion={descripcion}
               img={img}
               tecnologias={tecnologias}
+              github={github}
             />
           ))}
         </div>
