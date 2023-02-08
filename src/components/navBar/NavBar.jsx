@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
       <div className="border-0 w-full bg-black text-white relative sm:flex">
         <div className="sm:w-1/4">
-          <div className="flex py-2 justify-center">
+          <div className="flex py-2 justify-center sm:justify-around">
             <p className="">M.P portfolio</p>
             <div className="flex gap-4 justify-end w-2/4 sm:hidden">
               {icons.map(({ img, link }, index) => (
@@ -19,7 +19,7 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-        <div className="flex p-4 items-center justify-between sm:justify-around sm:w-1/2 mx-4">
+        <div className="flex p-4 items-center justify-between sm:justify-around sm:w-1/2  mx-8">
           <p
             className="text-xs hover:cursor-pointer "
             onClick={() => handleClick("portfolio")}
