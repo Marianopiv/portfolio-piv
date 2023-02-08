@@ -12,7 +12,7 @@ import github from "../assets/github-logo.png"
 import linkedin from  "../assets/Linkedin.png"
 import mail from "../assets/email.png"
 
-export const icons = [linkedin,github]
+export const icons = [{img:linkedin,link:"https://www.linkedin.com/in/mariano-pividori-5680a051/"},{img:github,link:"https://github.com/Marianopiv"}]
 
 export const projects = [
     {

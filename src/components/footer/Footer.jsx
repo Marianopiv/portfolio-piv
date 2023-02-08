@@ -9,8 +9,10 @@ const Footer = () => {
         Contactame para cualquier propuesta o consulta
       </h3>
       <div className="flex gap-4 justify-center w-2/4 lg:justify-end lg:gap-4 lg:ml-24">
-        {icons.map((item, index) => (
-          <img key={index} className="w-6 h-6" src={item} alt="" />
+        {icons.map(({img,link}, index) => (
+         <a  key={index} className="" href={link}>
+         <img  className="w-6 h-6" src={img} alt="" />
+       </a>
         ))}
       </div>
     </div>

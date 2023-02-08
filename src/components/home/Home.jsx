@@ -8,7 +8,16 @@ import "./home.css";
 import ellipse14 from "../../assets/Ellipse 14.png";
 import withBg from "../../assets/black-white.png";
 import Footer from "../footer/Footer";
+import cv from "../../assets/CV.pdf"
 const Home = () => {
+  function downloadPDF(text, fileName) {
+    console.log("se ejecuto")
+    const element = document.createElement('a');
+    const file = new Blob([text], {type: 'application/pdf'});
+    element.href = URL.createObjectURL(file);
+    element.download = fileName;
+    element.click();
+  }
   return (
     <div className="">
       <NavBar />
@@ -29,7 +38,7 @@ const Home = () => {
               problemas concretos a través de mis habilidades en el campo de la
               programación.
             </p>
-            <div className="h-96 sm:h-58 md:h-56  z-50 sm:-z-20 lg:flex">
+            <div className="h-96 sm:h-58 md:h-56  z-50 lg:flex">
               <img
                 className="absolute ellipse-14 rounded-full sm:left-80 sm:top-20 md:left-130 lg:hidden"
                 src={ellipse14}
@@ -41,8 +50,8 @@ const Home = () => {
                 src={withBg}
                 alt=""
               />
-              <div className="absolute top-3/4 mt-8 sm:mt-0 right-26 sm:top-2/4 sm:left-32 md:top-96 lg:left-48 xl:left-80 xl:pl-6">
-                <button className="btn-class w-36 h-12 text-xs pb-8">
+              <div className="absolute top-3/4 mt-8 sm:mt-0 right-26 sm:top-2/4 sm:left-32 md:top-96 lg:left-48 xl:left-80 xl:pl-6 z-50 hover:cursor-pointer">
+                <button onClick={()=>downloadPDF(cv,"CV-Pividori")} className="btn-class w-36 h-12 text-xs pb-8 ">
                   Download CV
                 </button>
               </div>
