@@ -9,7 +9,6 @@ import ellipse14 from "../../assets/Ellipse 14.png";
 import withBg from "../../assets/black-white.png";
 import Footer from "../footer/Footer";
 import cv from "../../assets/CV.pdf"
-import jsPDF from 'jspdf';
 
 const Home = () => {
   

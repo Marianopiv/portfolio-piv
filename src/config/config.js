@@ -69,7 +69,7 @@ export const projects = [
       img: tipCalculator,
       descripcion: "Exploré tipos de datos en TypeScript y manejo de errores en esta aplicación. También me enfrenté al desafío de entender el método onBlur en Javascript.",
       tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
-      url: "https://tip-calculator-typescript-h3n2zt7bi-marianopiv.vercel.app/"
+      url: "tip-calculator-typescript-lw9p4mihv-marianopiv.vercel.app"
     },
     {
       name: "Yu Gi Oh Enciclopedia",
