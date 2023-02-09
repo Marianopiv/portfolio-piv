@@ -15,6 +15,62 @@ import mail from "../assets/email.png"
 export const icons = [{img:linkedin,link:"https://www.linkedin.com/in/mariano-pividori-5680a051/"},{img:github,link:"https://github.com/Marianopiv"}]
 
 export const projects = [
+  {
+    name: "Piedra Papel o Tijera!",
+    img: paperRockScissors,
+    descripcion: "Esta fue una de mis primeras aplicaciones complejas con TypeScript, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
+    tecnologias: "HTML,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
+    url: "https://paper-rock-typescript.vercel.app/",
+    github:"https://github.com/Marianopiv/paper-rock-typescript"
+  },
+  {
+    name: "Generador de Contranseñas",
+    img: passgenerator,
+    descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
+    tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
+    url: "https://password-generator-tsx-6adi.vercel.app/",
+    github:"https://github.com/Marianopiv/password-generator-tsx"
+  },
+  {
+    name: "Tip Calculator",
+    img: tipCalculator,
+    descripcion: "Exploré tipos de datos en TypeScript y manejo de errores en esta aplicación. También me enfrenté al desafío de entender el método onBlur en Javascript.",
+    tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
+    url: "https://tip-calculator-typescript.vercel.app/",
+    github:"https://github.com/Marianopiv/tip-calculator-typescript"
+  },
+  {
+    name: "Yu Gi Oh Enciclopedia",
+    img: yugiOh,
+    descripcion: "Aplicación con la cual pude explorar distintas alternativas ofrecidas por la API, logrando mostrar y filtrar a mi gusto, y utilizando las opciones de paginado necesarias para poder mostrar los elementos",
+    tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
+    url: "https://yu-gi-oh-iota.vercel.app/",
+    github:"https://github.com/Marianopiv/yu-gi-oh"
+  },
+  {
+    name: "Tic Tac Toe",
+    img: tictactoe,
+    descripcion: "Juego que resulto un gran desafío armar, desde la logica a la hora de que juegue el contrincante, hasta poder perfeccionar la interaccion con Firebase y su guardado en la base de datos.",
+    tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
+    url: "https://tic-tac-3v6xj1z42-marianopiv.vercel.app/",
+    github:"https://github.com/Marianopiv/tic-tac-toe"
+  },
+  {
+    name: "Banderas",
+    img: banderas,
+    descripcion: "Esta aplicación me permitió practicar la manipulación de datos a través de una API, y tuve la oportunidad de añadirle un modo oscuro.",
+    tecnologias: "HTML,CSS,JAVSCRIPT,REACT,TAILWIND",
+    url: "https://banderas-woad.vercel.app/",
+    github:"https://github.com/Marianopiv/banderas"
+  },
+  {
+    name: "Mercado Pivo",
+    img: mercadopivo,
+    descripcion: "Disfruté mucho trabajando en esta aplicación, ya que me permitió introducirme en el uso de Context, React Router Dom y el mapeo de arrays con objetos.",
+    tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
+    url: "https://mercadopiv.vercel.app/",
+    github:"https://github.com/Marianopiv/mercadopiv"
+  },
     {
       name: "BatataPiv",
       img: batatapiv,
@@ -39,62 +95,6 @@ export const projects = [
       url: "https://bali-boostrap.vercel.app/",
       github:"https://github.com/Marianopiv/bali-boostrap"
     },
-    {
-      name: "Banderas",
-      img: banderas,
-      descripcion: "Esta aplicación me permitió practicar la manipulación de datos a través de una API, y tuve la oportunidad de añadirle un modo oscuro.",
-      tecnologias: "HTML,CSS,JAVSCRIPT,REACT,TAILWIND",
-      url: "https://banderas-woad.vercel.app/",
-      github:"https://github.com/Marianopiv/banderas"
-    },
-    {
-      name: "Mercado Pivo",
-      img: mercadopivo,
-      descripcion: "Disfruté mucho trabajando en esta aplicación, ya que me permitió introducirme en el uso de Context, React Router Dom y el mapeo de arrays con objetos.",
-      tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: "https://mercadopiv.vercel.app/",
-      github:"https://github.com/Marianopiv/mercadopiv"
-    },
-    {
-      name: "Piedra Papel o Tijera!",
-      img: paperRockScissors,
-      descripcion: "Esta fue una de mis primeras aplicaciones complejas con TypeScript, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
-      tecnologias: "HTML,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
-      url: "https://paper-rock-typescript.vercel.app/",
-      github:"https://github.com/Marianopiv/paper-rock-typescript"
-    },
-    {
-      name: "Generador de Contranseñas",
-      img: passgenerator,
-      descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
-      tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
-      url: "https://password-generator-tsx-6adi.vercel.app/",
-      github:"https://github.com/Marianopiv/password-generator-tsx"
-    },
-    {
-      name: "Tip Calculator",
-      img: tipCalculator,
-      descripcion: "Exploré tipos de datos en TypeScript y manejo de errores en esta aplicación. También me enfrenté al desafío de entender el método onBlur en Javascript.",
-      tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
-      url: "https://tip-calculator-typescript.vercel.app/",
-      github:"https://github.com/Marianopiv/tip-calculator-typescript"
-    },
-    {
-      name: "Yu Gi Oh Enciclopedia",
-      img: yugiOh,
-      descripcion: "Aplicación con la cual pude explorar distintas alternativas ofrecidas por la API, logrando mostrar y filtrar a mi gusto, y utilizando las opciones de paginado necesarias para poder mostrar los elementos",
-      tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: "https://yu-gi-oh-iota.vercel.app/",
-      github:"https://github.com/Marianopiv/yu-gi-oh"
-    },
-    {
-      name: "Tic Tac Toe",
-      img: tictactoe,
-      descripcion: "Juego que resulto un gran desafío armar, desde la logica a la hora de que juegue el contrincante, hasta poder perfeccionar la interaccion con Firebase y su guardado en la base de datos.",
-      tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
-      url: "https://tic-tac-3v6xj1z42-marianopiv.vercel.app/",
-      github:"https://github.com/Marianopiv/tic-tac-toe"
-    }
   ]
 
 export const tecnologias = ["HTML", "CSS", "JavaScript", "React", "TypeScript JSX", "Figma", "Git y Github", "Sass", "Tailwind CSS", "Bootstrap", "Firebase"]
