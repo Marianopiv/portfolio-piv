@@ -16,14 +16,6 @@ export const icons = [{img:linkedin,link:"https://www.linkedin.com/in/mariano-pi
 
 export const projects = [
   {
-    name: "Piedra Papel o Tijera!",
-    img: paperRockScissors,
-    descripcion: "Esta fue una de mis primeras aplicaciones complejas con TypeScript, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
-    tecnologias: "HTML,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
-    url: "https://paper-rock-typescript.vercel.app/",
-    github:"https://github.com/Marianopiv/paper-rock-typescript"
-  },
-  {
     name: "Generador de Contranseñas",
     img: passgenerator,
     descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
@@ -54,6 +46,14 @@ export const projects = [
     tecnologias: "HTML,CSS,JAVASCRIPT,REACT,TAILWIND",
     url: "https://tic-tac-3v6xj1z42-marianopiv.vercel.app/",
     github:"https://github.com/Marianopiv/tic-tac-toe"
+  },
+  {
+    name: "Piedra Papel o Tijera!",
+    img: paperRockScissors,
+    descripcion: "Esta fue una de mis primeras aplicaciones complejas con TypeScript, y me desafió a pensar en cómo armar una arquitectura sólida y hacer que mi oponente (el PC) pudiera jugar en cada turno.",
+    tecnologias: "HTML,TYPESCRIPT,REACT,TAILWIND,FIREBASE",
+    url: "https://paper-rock-typescript.vercel.app/",
+    github:"https://github.com/Marianopiv/paper-rock-typescript"
   },
   {
     name: "Banderas",
