@@ -16,7 +16,7 @@ export const icons = [{img:linkedin,link:"https://www.linkedin.com/in/mariano-pi
 
 export const projects = [
   {
-    name: "Generador de Contranseñas",
+    name: "Generador de Contraseñas",
     img: passgenerator,
     descripcion: "Esta aplicación me brindó la oportunidad de mejorar habilidades en la manipulación de arrays. También fue desafiante a la hora del armado de la arquitectura  y la práctica de migrar el código de Javascript a TypeScript. ",
     tecnologias: "HTML,CSS,TYPESCRIPT,REACT,TAILWIND",
