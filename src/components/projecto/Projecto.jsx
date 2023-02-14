@@ -4,6 +4,9 @@ import Button from "../../UI/Button";
 import "./projecto.css";
 
 const Projecto = ({ name, img, tecnologias, descripcion, url,github }) => {
+  function openLinkInNewWindow(url) {
+    window.open(url, '_blank');
+  }
 
   return (
     <div
@@ -25,26 +28,19 @@ const Projecto = ({ name, img, tecnologias, descripcion, url,github }) => {
         </p>{" "}
       </div>
       <div className="flex gap-2">
-        <a
-          className="w-40 rounded-md hover:cursor-pointer "
-          href={url}
-        >
           <Button
+          action={()=>openLinkInNewWindow(url)}
             text={`Demo en vivo`}
-            className={"hover:border-white border-2 border-black"}
+            className={"hover:border-white border-2 border-black hover:cursor-pointer"}
           />
-        </a>{" "}
-        <a
-          className=" rounded-md hover:cursor-pointer"
-          href={github}
-        >
+
           <Button
+          action={()=>openLinkInNewWindow(github)}
             text={`GitHub`}
             className={
-              "w-24  border-2 border-gray-500  btnBlack hover:border-white"
+              "w-24  border-2 border-gray-500  btnBlack hover:border-white hover:cursor-pointer"
             }
           />{" "}
-        </a>
       </div>
     </div>
   );
