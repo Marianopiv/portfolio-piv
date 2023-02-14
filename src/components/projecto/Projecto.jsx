@@ -4,9 +4,7 @@ import Button from "../../UI/Button";
 import "./projecto.css";
 
 const Projecto = ({ name, img, tecnologias, descripcion, url,github }) => {
-  function openLinkInNewWindow(url) {
-    window.open(url, '_blank');
-  }
+  const {openLinkInNewWindow} = useMostrar()
 
   return (
     <div

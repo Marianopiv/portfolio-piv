@@ -7,6 +7,9 @@ const useMostrar = () => {
     const contactoSection = document.querySelector(`#${section}`);
     contactoSection.scrollIntoView({ behavior: "smooth" });
   }
-  return { setMostrar,mostrar,handleClick };
+  function openLinkInNewWindow(url) {
+    window.open(url, '_blank');
+  }
+  return { setMostrar,mostrar,handleClick,openLinkInNewWindow };
 };
 export default useMostrar;

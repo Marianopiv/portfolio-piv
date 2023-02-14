@@ -3,7 +3,7 @@ import { icons } from "../../config/config";
 import useMostrar from "../../hook/useMostrar";
 
 const NavBar = () => {
-  const { handleClick } = useMostrar();
+  const { handleClick,openLinkInNewWindow } = useMostrar();
   return (
     <>
       <div className="border-0 w-full bg-black text-white relative sm:flex">
@@ -12,9 +12,9 @@ const NavBar = () => {
             <p className="">M.P portfolio</p>
             <div className="flex gap-4 justify-end w-2/4 sm:hidden">
               {icons.map(({ img, link }, index) => (
-                  <a key={index} className="" href={link}>
+                  <div key={index} className="" onClick={()=>openLinkInNewWindow(link)}>
                     <img className="w-6 h-6" src={img} alt="" />
-                  </a>
+                  </div>
               ))}
             </div>
           </div>
@@ -41,9 +41,9 @@ const NavBar = () => {
         </div>
         <div className="sm:flex gap-4 justify-center w-1/3 py-2 hidden ">
           {icons.map(({img,link}, index) => (
-            <a  key={index} className="" href={link}>
+            <div  key={index} className="" onClick={()=>openLinkInNewWindow(link)}>
             <img  className="w-6 h-6" src={img} alt="" />
-          </a>
+          </div>
           ))}
         </div>
       </div>

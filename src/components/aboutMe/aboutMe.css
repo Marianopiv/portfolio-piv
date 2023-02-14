@@ -15,13 +15,14 @@
 
 @media (min-width: 768px) {
     .w-custom {
-        width: 70.333333%;
+        width: 81.333333%;
     }
     
 }
 @media (min-width: 1024px) {
     .w-customlg {
-        width: 81.333333%;
+        width: 80.333333%;
+        margin-right:2px;
     }
     
 }

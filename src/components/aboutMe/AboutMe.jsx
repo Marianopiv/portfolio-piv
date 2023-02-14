@@ -27,18 +27,18 @@ const AboutMe = () => {
           ))}
           <div className="absolute border-2 opacity-80 h-80  left-14 sm:left-custom"></div>
         </div>
-        <div className="hidden gap-4 flex-wrap relative md:flex">
+        <div className="hidden gap-4 relative md:flex">
           {sobreMi.map(({ año, logro }, index) => (
             <div
               key={index}
               className="flex items-center md:pl-4 flex-wrap flex-col xl:pr-20"
             >
               <p className="">{año}</p>
-                <div className="absolute border-2 opacity-80 w-custom w-customlg top-8  left-24"></div>
+                <div className="absolute border-2 opacity-80 w-custom top-8 w-customlg  left-24"></div>
               <div className="item-point w-3 z-20 ">
               </div>
-              <p className="w-40 text-right text-xs text-[#4f5257] story pt-3 xl:text-left ">
-                {logro.slice(0, 274)}
+              <p className="w-36 text-left text-xs text-[#4f5257] story pt-3 xl:text-left ">
+                {logro.slice(0, 270)}
               </p>
             </div>
           ))}
